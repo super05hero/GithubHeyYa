@@ -14,7 +14,7 @@ public:
 		cout << "--------------------";
 	}
 }; int Board::count = 0;
-string Board::s[1000] = { " ",  };
+string Board::s[1000] = {};
 
 void Board::add(string add)
 {
